@@ -320,17 +320,9 @@
 }
 
 @media (max-width: 600px) {
-  .allergie-txt p {
-    width: 100%;
-  }
-
   .tip-list li {
     width: 100%;
     aspect-ratio: 1/0.6;
-  }
-
-  .online-txt p {
-    width: 100%;
   }
 
   .tip-list li:hover strong {
