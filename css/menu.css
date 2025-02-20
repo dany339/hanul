@@ -104,39 +104,6 @@
   text-align: center;
 }
 
-.menu-list .products-tag {
-  display: flex;
-  justify-content: center;
-}
-
-.menu-list .products-tag p {
-  font-size: 1.6rem;
-  color: var(--text-color);
-}
-
-.menu-con .btn-more {
-  margin: 9.0909% auto 0 auto;
-  background: var(--main-color);
-  color: var(--white100);
-}
-
-.menu-con .btn-more:hover {
-  color: var(--main-color);
-}
-
-.menu-con .btn-more::after {
-  background-image: url(../img/arrow-w-right.png);
-}
-
-.menu-con .btn-more:hover::after {
-  content: "";
-  background-image: url(../img/arrow-m-right.png);
-}
-
-.menu-con .btn-more-item {
-  background: var(--white100);
-}
-
 @media (max-width: 672px) {
   .menu-tab {
     justify-content: flex-start;
