@@ -223,31 +223,6 @@ $menuItem.on("click", function () {
 
 /* REWARDS!!!---------------------------------------------- */
 
-const $snsTabMenu = $(".sns-tab > li");
-const $snsTabCon = $(".sns .sns-list");
-
-snsTabAction(0);
-
-$snsTabMenu.on("click", function (e) {
-  e.preventDefault();
-
-  const snsTabIdx = $(this).index();
-  console.log(snsTabIdx);
-
-  snsTabAction(snsTabIdx);
-});
-
-// 공통의 동작을 함수로 정의
-function snsTabAction(index) {
-  // 탭메뉴 활성화
-  $snsTabMenu.removeClass("on");
-  $snsTabMenu.eq(index).addClass("on");
-
-  // 인덱스에 해당하는 $tabCon 보이기
-  $snsTabCon.hide();
-  $snsTabCon.eq(index).show();
-}
-
 // event swiper(MAIN)
 const $eventTabMenu = $(".event-tab > li");
 const $eventTabCon = $(".event-list");
